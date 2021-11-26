@@ -8,12 +8,11 @@
   
 
 
-<!------ Include the above in your HEAD tag ---------->
 
-<div class="container">
 	<h1>Welcome to Devops!!</h1>
 	
-</div>
+This is normal but this is text
+This is <sup> super-scripted Text</sup>
   
 <!--   &#128516; &#128525; &#128151; -->
 &#128512;
