@@ -2,51 +2,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 <style>
-	{
-		background-color: #25274d;
-	}
-	.contact{
-		padding: 4%;
-		height: 400px;
-	}
-	.col-md-3{
-		background: #ff9b00;
-		padding: 4%;
-		border-top-left-radius: 0.5rem;
-		border-bottom-left-radius: 0.5rem;
-	}
-	.contact-info{
-		margin-top:10%;
-	}
-	.contact-info img{
-		margin-bottom: 15%;
-	}
-	.contact-info h2{
-		margin-bottom: 10%;
-	}
-	.col-md-9{
-		background: #fff;
-		padding: 3%;
-		border-top-right-radius: 0.5rem;
-		border-bottom-right-radius: 0.5rem;
-	}
-	.contact-form label{
-		font-weight:600;
-	}
-	.contact-form button{
-		background: #25274d;
-		color: #fff;
-		font-weight: 600;
-		width: 25%;
-	}
-	.contact-form button:focus{
-		box-shadow:none;
-	}
+	body { background-color:#ddd; }
+.blog-row {margin-top:50px; }
+.margin_bottom30 { margin-bottom:30px; }
+.margin_left10 {margin-left:10px; }
+.blog-content {padding:10px; }
+.bg-white {background-color:#fff;}
 	</style>	
 	
 	
@@ -61,51 +27,84 @@
 <h1>Welcome to Devops!!</h1>
   
   <h1>I love coding!!</h1>
-<div class="container contact">
-	<div class="row">
-		<div class="col-md-3">
-			<div class="contact-info">
-				<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
-				<h2>Contact Us</h2>
-				<h4>We would love to hear from you !</h4>
-			</div>
-		</div>
-		<div class="col-md-9">
-			<div class="contact-form">
-				<div class="form-group">
-				  <label class="control-label col-sm-2" for="fname">First Name:</label>
-				  <div class="col-sm-10">          
-					<input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
-				  </div>
-				</div>
-				<div class="form-group">
-				  <label class="control-label col-sm-2" for="lname">Last Name:</label>
-				  <div class="col-sm-10">          
-					<input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
-				  </div>
-				</div>
-				<div class="form-group">
-				  <label class="control-label col-sm-2" for="email">Email:</label>
-				  <div class="col-sm-10">
-					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-				  </div>
-				</div>
-				<div class="form-group">
-				  <label class="control-label col-sm-2" for="comment">Comment:</label>
-				  <div class="col-sm-10">
-					<textarea class="form-control" rows="5" id="comment"></textarea>
-				  </div>
-				</div>
-				<div class="form-group">        
-				  <div class="col-sm-offset-2 col-sm-10">
-					<button type="submit" class="btn btn-default">Submit</button>
-				  </div>
+<div class="container">
+	<div class="row blog-row">
+	    <h1 class="text-center margin_bottom30">Latest Blog</h1>
+			<div class="col-md-6 col-sm-6 col-xs-12 margin_bottom30">
+			<a href="javascript::;">
+				<img class="img-responsive center-block" src="http://i50.tinypic.com/2nbf0ht.jpg" height="250">
+				</a>
+				<div class="blog-content bg-white">
+				<h3>Blog Title Comes Here</h3>
+				<p>Category : <a href="javascript::;">Nature</a></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris sit amet mi posuere imperdiet. Sed congue velit placerat sapien gravida sagittis. Phasellus in convallis urna, sit amet sollicitudin augue. Nullam vel est a neque lobortis iaculis....<a href="javascript::;"  class="heading_color">  Continue Reading</a></p>
+				<hr>
+				<p><span>Share : 
+				<a href="javascript::;"><i class="fa fa-facebook margin_left10" aria-hidden="true"></i></a>
+				<a href="javascript::;"><i class="fa fa-twitter margin_left10" aria-hidden="true"></i></a>
+				<a href="javascript::;"><i class="fa fa-google-plus margin_left10" aria-hidden="true"></i></a>
+				 </span> 
+				<span class="pull-right">By : <strong>Blogger</strong></span> </p>
 				</div>
 			</div>
+
+			<div class="col-md-6 col-sm-6 col-xs-12 margin_bottom30">
+			<a href="javascript::;">
+				<img class="img-responsive center-block" src="http://i50.tinypic.com/2nbf0ht.jpg">
+				</a>
+				<div class="blog-content bg-white">
+				<h3>Blog Title Comes Here</h3>
+				<p>Category : <a href="javascript::;">Nature</a></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris sit amet mi posuere imperdiet. Sed congue velit placerat sapien gravida sagittis. Phasellus in convallis urna, sit amet sollicitudin augue. Nullam vel est a neque lobortis iaculis....<a href="javascript::;"  class="heading_color">  Continue Reading</a></p>
+				<hr>
+				<p><span>Share : 
+				<a href="javascript::;"><i class="fa fa-facebook margin_left10" aria-hidden="true"></i></a>
+				<a href="javascript::;"><i class="fa fa-twitter margin_left10" aria-hidden="true"></i></a>
+				<a href="javascript::;"><i class="fa fa-google-plus margin_left10" aria-hidden="true"></i></a>
+				 </span> 
+				<span class="pull-right">By : <strong>Blogger</strong></span> </p>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-sm-6 col-xs-12 margin_bottom30">
+			<a href="javascript::;">
+				<img class="img-responsive center-block" src="http://i50.tinypic.com/2nbf0ht.jpg">
+				</a>
+				<div class="blog-content bg-white">
+				<h3>Blog Title Comes Here</h3>
+				<p>Category : <a href="javascript::;">Nature</a></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris sit amet mi posuere imperdiet. Sed congue velit placerat sapien gravida sagittis. Phasellus in convallis urna, sit amet sollicitudin augue. Nullam vel est a neque lobortis iaculis....<a href="javascript::;"  class="heading_color">  Continue Reading</a></p>
+				<hr>
+				<p><span>Share : 
+				<a href="javascript::;"><i class="fa fa-facebook margin_left10" aria-hidden="true"></i></a>
+				<a href="javascript::;"><i class="fa fa-twitter margin_left10" aria-hidden="true"></i></a>
+				<a href="javascript::;"><i class="fa fa-google-plus margin_left10" aria-hidden="true"></i></a>
+				 </span> 
+				<span class="pull-right">By : <strong>Blogger</strong></span> </p>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6 col-xs-12 margin_bottom30">
+			<a href="javascript::;">
+				<img class="img-responsive center-block" src="http://i50.tinypic.com/2nbf0ht.jpg">
+				</a>
+				<div class="blog-content bg-white">
+				<h3>Blog Title Comes Here</h3>
+				<p>Category : <a href="javascript::;">Nature</a></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris sit amet mi posuere imperdiet. Sed congue velit placerat sapien gravida sagittis. Phasellus in convallis urna, sit amet sollicitudin augue. Nullam vel est a neque lobortis iaculis....<a href="javascript::;"  class="heading_color">  Continue Reading</a></p>
+				<hr>
+				<p><span>Share : 
+				<a href="javascript::;"><i class="fa fa-facebook margin_left10" aria-hidden="true"></i></a>
+				<a href="javascript::;"><i class="fa fa-twitter margin_left10" aria-hidden="true"></i></a>
+				<a href="javascript::;"><i class="fa fa-google-plus margin_left10" aria-hidden="true"></i></a>
+				 </span> 
+				<span class="pull-right">By : <strong>Blogger</strong></span> </p>
+				</div>
+			</div>
+
 		</div>
-	</div>
 </div>
 
+<script src="https://use.fontawesome.com/1dec14be15.js"></script>
   
 <p style="font-size:50px">
   <!--   &#128516; &#128525; &#128151; -->
