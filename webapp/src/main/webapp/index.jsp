@@ -12,12 +12,7 @@
 
 <div class="container">
 	<h1>Welcome to Devops!!</h1>
-	<div class="row">
-		<h2>Devops</h2>
-     
-	</h4>
-		
-	</div>
+	
 </div>
   
 <!--   &#128516; &#128525; &#128151; -->
