@@ -7,6 +7,7 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 <style>
+	<p style="font-size:50px">
 	body { background-color:#ddd; }
 .blog-row {margin-top:50px; }
 .margin_bottom30 { margin-bottom:30px; }
@@ -106,7 +107,7 @@
 
 <script src="https://use.fontawesome.com/1dec14be15.js"></script>
   
-<p style="font-size:50px">
+
   <!--   &#128516; &#128525; &#128151; -->
 &#128512;
 </p>
