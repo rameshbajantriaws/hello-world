@@ -87,7 +87,7 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-      font-size: 80px;
+      font-size: 20px;
 }
 
 @keyframes textclip {
@@ -99,10 +99,10 @@
 </head>
 
 <body>
-	<div class="container">
+<div class="container">
   <div class="row">
     <div class="col-md-12 text-center">
-      <h3 class="animate-charcter"> Devops </h3>
+      <h5 class="animate-charcter"> DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. DevOps is complementary with Agile software development; several DevOps aspects came from the Agile methodology. </h5>
     </div>
   </div>
 </div>
