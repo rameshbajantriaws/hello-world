@@ -25,16 +25,12 @@ div {
 <body>
 <h1>Welcome to Devops!!</h1>
 	
-	<h1>Devops is fun</h1>
+<h1>Devops is fun</h1>
 
 <p>I love devops:</p>
 
 <div></div>
 	
-This is normal but this is text
-This is <sup> super-scripted Text</sup>
-  
-<!--   &#128516; &#128525; &#128151; -->
 &#128512;
 </p>
 
