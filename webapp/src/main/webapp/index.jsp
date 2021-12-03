@@ -100,19 +100,20 @@
 
 <body>
 	<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h3 class="animate-charcter"> Devops </h3>
+    </div>
+  </div>
+</div>
+	<div class="container">
 		<div class="row">
 			<span class="text1">Hello Devops !!</span>
 			<span class="text2">learning Devops really fun!!!!</span>
 		</div>
 	</div>
 	
-	<div class="container">
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <h3 class="animate-charcter"> Devops</h3>
-    </div>
-  </div>
-</div>
+
 </body>
 
 </html>
