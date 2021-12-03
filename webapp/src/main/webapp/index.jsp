@@ -47,54 +47,7 @@
 			font-family: Georgia, serif;
 		}
 
-		@keyframes text {
-			0% {
-				color: black;
-				margin-bottom: -40px;
-			}
-
-			30% {
-				letter-spacing: 25px;
-				margin-bottom: -40px;
-			}
-
-			85% {
-				letter-spacing: 8px;
-				margin-bottom: -40px;
-			}
-		}
 		
-		
-		
-		
-		.animate-charcter
-{
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-      font-size: 20px;
-}
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}
 	</style>
 </head>
 
@@ -110,10 +63,7 @@
 		<div class="row">
 			<span class="text1">Hello Devops !!</span>
 			<span class="text2">learning Devops really fun!!!!</span>
-			<span class="text3">DevOps is a set of practices that combines software development (Dev) 
-			and IT operations (Ops). It aims to shorten the systems 
-			development life cycle and provide continuous delivery with high software quality. 
-			DevOps is complementary with Agile software development; several DevOps aspects came from the Agile methodology</span>
+			
 		</div>
 	</div>
 	
