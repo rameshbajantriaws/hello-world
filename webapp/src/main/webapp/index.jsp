@@ -7,9 +7,9 @@
 div {
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: green;
   position: relative;
-  animation: myfirst 5s linear 2s infinite alternate;
+  animation: myfirst 8s linear 4s infinite alternate;
 }
 
 @keyframes myfirst {
