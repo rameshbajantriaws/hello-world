@@ -102,7 +102,7 @@
 <div class="container">
   <div class="row">
    
-      <h3 class="animate-charcter"> ##DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. DevOps is complementary with Agile software development; several DevOps aspects came from the Agile methodology. </h3>
+      <h3 class="animate-charcter">Devops. </h3>
     
   </div>
 </div>
@@ -110,6 +110,10 @@
 		<div class="row">
 			<span class="text1">Hello Devops !!</span>
 			<span class="text2">learning Devops really fun!!!!</span>
+			<span class="text3">DevOps is a set of practices that combines software development (Dev) 
+			and IT operations (Ops). It aims to shorten the systems 
+			development life cycle and provide continuous delivery with high software quality. 
+			DevOps is complementary with Agile software development; several DevOps aspects came from the Agile methodology</span>
 		</div>
 	</div>
 	
